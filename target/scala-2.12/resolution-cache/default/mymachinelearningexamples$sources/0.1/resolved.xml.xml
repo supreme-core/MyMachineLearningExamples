@@ -4,7 +4,7 @@
 		module="mymachinelearningexamples$sources"
 		revision="0.1"
 		status="integration"
-		publication="20190615155953"
+		publication="20190615161326"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
