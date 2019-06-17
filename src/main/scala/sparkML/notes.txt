@@ -1,0 +1,16 @@
+https://github.com/ml-resources
+https://github.com/combust/mleap
+https://www.h2o.ai/products/h2o-sparkling-water/
+
+
+https://github.com/chethangn/SimpleLinearRegression
+
+footnote:
+Machine Learning with Spark second edition
+By Rajdeep Dua, Manpreet Singh Ghotra, Nick Pentreath
+
+Machine Leanring with Apache Spark Quick Start Guide
+Jillur Quddus
+
+Feature Engineering for Machine Learning
+Alice Zheng

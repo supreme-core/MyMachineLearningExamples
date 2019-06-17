@@ -4,7 +4,7 @@
 		module="mymachinelearningexamples_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20190615155943"
+		publication="20190615221502"
 	>
 		<description>
 		MyMachineLearningExamples
@@ -36,5 +36,10 @@
 		<dependency org="org.apache.spark" name="spark-mllib_2.12" rev="2.4.0" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-sql_2.12" rev="2.4.0" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-streaming_2.12" rev="2.4.0" conf="provided->default(compile)"/>
+		<dependency org="com.github.wookietreiber" name="scala-chart_2.12" rev="latest.integration" conf="compile->default(compile)"/>
+		<dependency org="org.scalanlp" name="breeze_2.12" rev="0.13.2" conf="compile->default(compile)"/>
+		<dependency org="org.jfree" name="jfreechart" rev="1.0.14" conf="compile->default(compile)"/>
+		<dependency org="org.jblas" name="jblas" rev="1.2.4" conf="compile->default(compile)"/>
+		<dependency org="com.github.scopt" name="scopt_2.10" rev="3.2.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

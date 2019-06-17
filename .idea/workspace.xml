@@ -2,9 +2,131 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef18b4c7-cd7d-4c20-853f-c321c998deba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/FirstTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_scopt_scopt_2_10_3_2_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_wookietreiber_scala_chart_2_12_0_5_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_jblas_jblas_1_2_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_jfree_jcommon_1_0_23_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_jfree_jfreechart_1_0_19_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_swing_2_12_2_0_0_M2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sparkML/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sparkML/pipeline/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sparkML/pipeline/sample_libsvm_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sparkML/pipeline/sample_linear_regression_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sparkML/pipeline/sample_multiclass_classification_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sparkML/pipeline/test.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sparkML/pipeline/train.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sparkML/pipeline/train_noheader.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sparkML/streaming/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sparkML/streaming/names.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/data/UserPurchaseHistory.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/data/ml-100k/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/data/ml-100k/allbut.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/data/ml-100k/mku.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/data/ml-100k/u.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/data/ml-100k/u.genre" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/data/ml-100k/u.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/data/ml-100k/u.item" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/data/ml-100k/u.occupation" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/data/ml-100k/u.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/data/ml-100k/u1.base" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/data/ml-100k/u1.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/data/ml-100k/u2.base" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/data/ml-100k/u2.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/data/ml-100k/u3.base" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/data/ml-100k/u3.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/data/ml-100k/u4.base" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/data/ml-100k/u4.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/data/ml-100k/u5.base" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/data/ml-100k/u5.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/data/ml-100k/ua.base" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/data/ml-100k/ua.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/data/ml-100k/ub.base" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/data/ml-100k/ub.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/ex1_products.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/movies/CountByRatingChart.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/movies/MovieAgesChart.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/movies/MovieData.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/movies/MovieDataFillingBadValues.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/movies/RatingData.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/movies/UserAgesChart.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/movies/UserOccupationChart.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/movies/UserRatingsChart.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/movies/Util.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/movies/package.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/stumpleuponclassifier/DecisionTreePipeline.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/stumpleuponclassifier/GradientBoostedTreePipeline.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/stumpleuponclassifier/LogisticRegressionPipeline.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/stumpleuponclassifier/NaiveBayesPipeline.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/stumpleuponclassifier/RandomForestPipeline.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/stumpleuponclassifier/SVMPipeline.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/stumpleuponclassifier/SparkCommonUtils.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/stumpleuponclassifier/SparkConstants.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/stumpleuponclassifier/StumbleUponExecutor.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/textclassifier/PipelineComponentExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/textclassifier/TextClassificationPipeline.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/utils/StandaloneSpark.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/recommendation/ALSModeling.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/recommendation/AbstractParams.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/recommendation/AlternatingLeastSquares.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/recommendation/FPGrowthTestv6.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/recommendation/FeatureExtraction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/recommendation/sample_movielens_ratings.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/recommendation/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/complex/StreamingModelConsumer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/complex/StreamingModelMonitorConsumer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/complex/StreamingModelProducer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/simple/AnalyticConsumer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/simple/StateConsumer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/simple/StreamingConsumer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/simple/StreamingProducer.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__junit_junit_3_8_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__junit_junit_4_8_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/MyMachineLearningExamples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/MyMachineLearningExamples.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/mymachinelearningexamples$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/mymachinelearningexamples$sources/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/mymachinelearningexamples$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/mymachinelearningexamples$sources/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/mymachinelearningexamples_2.12/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/mymachinelearningexamples_2.12/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/mymachinelearningexamples_2.12/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/mymachinelearningexamples_2.12/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples$sources-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples$sources-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples$sources-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples$sources-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples$sources-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples$sources-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples$sources-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples$sources-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples$sources-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples$sources-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples$sources-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples_2.12-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples_2.12-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples_2.12-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples_2.12-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples_2.12-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples_2.12-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples_2.12-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples_2.12-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples_2.12-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples_2.12-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-mymachinelearningexamples_2.12-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,10 +138,32 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/MyMachineLearningExamples$StreamingApp.ic" NAME="StreamingApp Coverage Results" MODIFIED="1560735755771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>sparkML.src.streaming.*</FILTER>
+    </SUITE>
+  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MyMachineLearningExamples" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-27984266">
@@ -31,26 +175,39 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="sbt" value="1" />
-          <entry key="scala" value="1" />
+          <entry key="csv" value="4" />
+          <entry key="java" value="1" />
+          <entry key="properties" value="3" />
+          <entry key="sbt" value="10" />
+          <entry key="sc" value="3" />
+          <entry key="scala" value="105" />
+          <entry key="tsv" value="1" />
+          <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Scala" value="1" />
-          <entry key="sbt" value="1" />
+          <entry key="CSV" value="4" />
+          <entry key="JAVA" value="1" />
+          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="Properties" value="3" />
+          <entry key="Scala" value="108" />
+          <entry key="TSV" value="1" />
+          <entry key="sbt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="sbt" value="2" />
-          <entry key="scala" value="11" />
+          <entry key="sbt" value="122" />
+          <entry key="scala" value="3158" />
+          <entry key="txt" value="263" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Scala" value="11" />
-          <entry key="sbt" value="2" />
+          <entry key="PLAIN_TEXT" value="263" />
+          <entry key="Scala" value="3158" />
+          <entry key="sbt" value="122" />
         </counts>
       </usages-collector>
     </session>
@@ -58,24 +215,41 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sbt">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/stumpleuponclassifier/StumbleUponExecutor.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="145">
+              <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/FirstTest.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/ex1_products.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="420">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SQF File" />
+        <option value="Package Object" />
+        <option value="Scala Worksheet" />
+        <option value="Python Script" />
+        <option value="Scala Object" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>SPARK_HOME</find>
+      <find>4040</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -94,8 +268,55 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/FirstTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/path1/src/ex1_products.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/pathA/ex1_products.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/pathA/src/ex1_products.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/pathA/src/transforms/Util.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/pathA/src/transforms/CountByRatingChart.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/pathA/src/transforms/MovieAgesChart.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/pathA/src/transforms/MovieData.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/pathA/src/transforms/RatingData.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/pathA/src/transforms/package.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/pathA/src/transforms/MovieDataFillingBadValues.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/pathA/src/movies/MovieDataFillingBadValues.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/pathA/src/movies/CountByRatingChart.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/pathA/src/movies/MovieAgesChart.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/pathA/src/movies/RatingData.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/pathA/src/movies/UserOccupationChart.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/pathA/src/movies/UserAgesChart.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/pathA/src/movies/Util.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/pathA/src/movies/UserRatingsChart.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/pathA/notes.txt" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkML/src/recommendation/AbstractParams.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkML/src/ex1_products.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkML/src/recommendation/ALSModeling.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkML/src/movies/Util.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkML/src/recommendation/FeatureExtraction.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkML/src/recommendation/AlternatingLeastSquares.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkML/src/recommendation/FPGrowthTestv6.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkML/notes.txt" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/Streaming.scala.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/StreamingModel.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/StreamingModel.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/Streaming.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/StreamingApp.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/simple/StreamingApp.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/simple/StreamingProducer.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/simple/Streaming.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/simple/StreamingConsumer.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/simple/AnalyticConsumer.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/simple/StateConsumer.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/complex/StreamingModelProducer.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/complex/StreamingModel.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/complex/StreamingModelMonitorConsumer.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/complex/StreamingModelConsumer.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/utils/StandaloneSpark.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/textclassifier/TextClassificationPipeline.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/textclassifier/PipelineComponentExample.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/stumpleuponclassifier/DecisionTreePipeline.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/stumpleuponclassifier/StumbleUponExecutor.scala" />
       </list>
     </option>
   </component>
@@ -136,7 +357,19 @@
               <item name="MyMachineLearningExamples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyMachineLearningExamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyMachineLearningExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyMachineLearningExamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyMachineLearningExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -146,7 +379,22 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560636978342" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560742583761" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/sparkML" />
+      <recent name="$PROJECT_DIR$/src/main/resources/streamings" />
+      <recent name="$PROJECT_DIR$/src/main/resources/streaming" />
+      <recent name="$PROJECT_DIR$/src/main/scala/pathA/data" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/stumpleuponclassifier" />
+      <recent name="$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/utils" />
+      <recent name="$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/textclassifier" />
+      <recent name="$PROJECT_DIR$/src/main/resources/sparkML/pipeline" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -160,10 +408,68 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="FirstTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+  <component name="RunManager" selected="Application.StumbleUponExecutor">
+    <configuration name="PipelineComponentExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparkML.src.pipeline.textclassifier.PipelineComponentExample" />
       <module name="MyMachineLearningExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sparkML.src.pipeline.textclassifier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamingModelMonitorConsumer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparkML.src.streaming.complex.StreamingModelMonitorConsumer" />
+      <module name="MyMachineLearningExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sparkML.src.streaming.complex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamingProducer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparkML.src.streaming.simple.StreamingProducer" />
+      <module name="MyMachineLearningExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sparkML.src.streaming.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StumbleUponExecutor" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparkML.src.pipeline.stumpleuponclassifier.StumbleUponExecutor" />
+      <module name="MyMachineLearningExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sparkML.src.pipeline.stumpleuponclassifier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextClassificationPipeline" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparkML.src.pipeline.textclassifier.TextClassificationPipeline" />
+      <module name="MyMachineLearningExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sparkML.src.pipeline.textclassifier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -226,9 +532,20 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.StreamingProducer" />
+      <item itemvalue="Application.StreamingModelMonitorConsumer" />
+      <item itemvalue="Application.TextClassificationPipeline" />
+      <item itemvalue="Application.PipelineComponentExample" />
+      <item itemvalue="Application.StumbleUponExecutor" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FirstTest" />
+        <item itemvalue="Application.StumbleUponExecutor" />
+        <item itemvalue="Application.PipelineComponentExample" />
+        <item itemvalue="Application.TextClassificationPipeline" />
+        <item itemvalue="Application.StreamingProducer" />
+        <item itemvalue="Application.StreamingModelMonitorConsumer" />
       </list>
     </recent_temporary>
   </component>
@@ -259,14 +576,12 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3121271924000" />
-        <entry key="$PROJECT_DIR$/build.sbt" value="2556234244" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="476692719" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="2567920773" />
       </map>
     </option>
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
         <entry key="$PROJECT_DIR$/../ScalaHelloWorld3/helloworld" value="PREVIEW" />
       </map>
     </option>
@@ -282,11 +597,18 @@
       <option name="presentableId" value="Default" />
       <updated>1560635948218</updated>
     </task>
+    <task id="LOCAL-00001" summary="setup scala env">
+      <created>1560637019637</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560637019638</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="387" y="1105" width="1533" height="875" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -294,27 +616,29 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31472763" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2508406" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" weight="0.42034805" />
+      <window_info anchor="bottom" id="Build" weight="0.42013422" />
       <window_info anchor="bottom" id="SBT Console" weight="0.32931727" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" />
-      <window_info anchor="bottom" id="Terminal" weight="0.33020133" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32885906" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" weight="0.70201343" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.64832217" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.7315436" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="sbt" />
+      <window_info anchor="right" id="sbt" weight="0.32952252" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32952252" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -323,18 +647,402 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="setup scala env" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup scala env" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="System.getProperty(&quot;user.dir&quot;)" language="Scala" />
+        <watch expression="scala.reflect.io.File(&quot;.&quot;).parent" language="Scala" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>scala.reflect.io.File(&quot;.&quot;).parent</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>System.getProperty(&quot;user.dir&quot;)</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/movies/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/movies/UserOccupationChart.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/movies/UserAgesChart.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/data/UserPurchaseHistory.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/movies/MovieData.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/recommendation/AbstractParams.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/recommendation/sample_movielens_ratings.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/recommendation/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/movies/UserRatingsChart.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/movies/CountByRatingChart.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="27" column="51" lean-forward="true" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/movies/Util.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/recommendation/FeatureExtraction.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="40" column="3" lean-forward="true" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/recommendation/AlternatingLeastSquares.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="84" column="43" lean-forward="true" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/recommendation/ALSModeling.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="e#36#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/StreamingModel.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1081">
+          <caret line="177" selection-start-line="177" selection-end-line="177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/a.sc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/Streaming.scala.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/bin/jdk-10.0.2/lib/src.zip!/java.base/java/io/Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sparkML/streaming/names.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/recommendation/FPGrowthTestv6.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#106#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sparkML/streaming/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/StreamingApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding>
+            <element signature="e#31#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/simple/StateConsumer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/simple/AnalyticConsumer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="e#38#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/simple/Streaming.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="167" column="5" lean-forward="true" selection-start-line="167" selection-start-column="5" selection-end-line="167" selection-end-column="5" />
+          <folding>
+            <element signature="e#38#64#0" expanded="true" />
+            <element signature="n#!!doc;n#StreamingProducer$#0;n#!!top" />
+            <element signature="e#378#406#0" />
+            <element signature="e#2648#4140#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/complex/StreamingModel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="e#2273#3291#1" />
+            <element signature="e#3455#5571#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/complex/StreamingModelMonitorConsumer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding>
+            <element signature="e#39#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/complex/StreamingModelConsumer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="32" column="51" lean-forward="true" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+          <folding>
+            <element signature="e#39#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/complex/StreamingModelProducer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="40" column="18" lean-forward="true" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="150">
+          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/simple/StreamingProducer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sparkML/a.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/streaming/simple/StreamingConsumer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sparkML/pipeline/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/utils/StandaloneSpark.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/textclassifier/TextClassificationPipeline.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+          <folding>
+            <element signature="e#45#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/textclassifier/PipelineComponentExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <element signature="e#45#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/a.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/stumpleuponclassifier/DecisionTreePipeline.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding>
+            <element signature="e#52#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/stumpleuponclassifier/GradientBoostedTreePipeline.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/stumpleuponclassifier/LogisticRegressionPipeline.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/stumpleuponclassifier/NaiveBayesPipeline.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/stumpleuponclassifier/RandomForestPipeline.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/stumpleuponclassifier/SparkConstants.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/stumpleuponclassifier/SparkCommonUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sparkML/pipeline/train.tsv">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sparkML/pipeline/sample_multiclass_classification_data.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/pipeline/stumpleuponclassifier/StumbleUponExecutor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/FirstTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="210">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/ex1_products.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
         </state>
       </provider>
     </entry>
