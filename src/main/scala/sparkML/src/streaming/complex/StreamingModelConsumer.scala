@@ -30,6 +30,12 @@ object StreamingModelConsumer {
       val split = event.split("\t")
       val y = split(0).toDouble
       val features = split(1).split(",").map(_.toDouble)
+
+//      println("Event: " + event + ", Label: " + y + ", Feature: " + features)
+
+      println(features.getClass())
+      println("Label: " + y + ", Feature: " + features)
+
       LabeledPoint(label = y, features = Vectors.dense(features))
     }
 

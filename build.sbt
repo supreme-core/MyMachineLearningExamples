@@ -22,3 +22,9 @@ libraryDependencies +="org.jfree" % "jfreechart" % "1.0.14"
 libraryDependencies += "org.jblas" % "jblas" % "1.2.4"
 libraryDependencies += "com.github.scopt" % "scopt_2.10" % "3.2.0"
 
+
+// bahirExamples.streaming.zeromq depenency
+//libraryDependencies += "org.zeromq" % "jeromq" % "0.5.1"
+//libraryDependencies += "org.apache.bahir" %% "spark-streaming-zeromq" % "2.3.3"
+
+

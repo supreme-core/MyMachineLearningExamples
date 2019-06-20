@@ -16,11 +16,7 @@ import scala.collection.mutable
 /*
 
   RDD - Resilient Distributed Datasets. Read-only colleciton of records
-
-
   DataFrame - Tabular data organized into named columns.
-
-
   DataSet - same as dataframe with additonal feature in querying
 
  */
@@ -34,16 +30,17 @@ object QueueStream {
     // Create the context
     val ssc = new StreamingContext(sparkConf, Seconds(1))
 
-
+//    queue_test1()
+    queue_test2(ssc)
 //    data_test(ssc)
 //    stream_test(ssc)
-    rdd_stream(ssc)
-
+//    rdd_stream(ssc)
 
     ssc.stop()
   }
 
   def queue_test1() : Unit = {
+
     var q = new Queue[String]
     q += "appple"
     q += "kiwi"
@@ -54,7 +51,32 @@ object QueueStream {
 
     val values = q.dequeueAll(!_.isEmpty)
     println(values)
+
   }
+
+  def queue_test2(ssc: StreamingContext) : Unit = {
+    val sqlContext = new SQLContext(ssc.sparkContext)
+    val spark = sqlContext.sparkSession
+    import spark.implicits._
+
+
+    val rddQueue = new Queue[RDD[String]]()
+    rddQueue += spark.sparkContext.makeRDD(mutable.Seq("Apple", "Orange", "Banana"))
+    rddQueue += spark.sparkContext.makeRDD(mutable.Seq("Bike", "Car", "Bus"))
+    val values = rddQueue.dequeueAll((!_.isEmpty()))
+    println(values.seq)
+
+
+    case class Fruits(id: Integer, name: String)
+    val rddQueue2 = new Queue[RDD[Fruits]]
+    rddQueue2 += spark.sparkContext.makeRDD(mutable.Seq(Fruits(1, "Apple"), Fruits(2, "Orange"), Fruits(3, "Banana")))
+    val values2 = rddQueue2.dequeueAll(!_.isEmpty())
+    values2.take(5).foreach( (rddItem) => {
+      rddItem.foreach(println)
+    })
+
+  }
+
 
   def data_test(ssc: StreamingContext) : Unit = {
 
@@ -114,14 +136,13 @@ object QueueStream {
 
     var rdd2 = spark.sparkContext.parallelize(Array(1, 2, 3, 4, 5))
     val df2 = rdd.toDF()
-
   }
 
-  def rdd_stream(ssc : StreamingContext) : Unit = {
 
+  def rdd_stream(ssc : StreamingContext) : Unit = {
     val sqlContext = new SQLContext(ssc.sparkContext)
     val spark = sqlContext.sparkSession
-    import spark.implicits._
+//    import spark.implicits._
 
     // Create the queue through which RDDs can be pushed to a QueueInputStream
     val rddQueue = new Queue[RDD[Int]]()
@@ -134,24 +155,25 @@ object QueueStream {
     val reducedStream = mappedStream.reduceByKey(_ + _)
 
     reducedStream.foreachRDD((rdd, t) => {
-      println(sqlContext.createDataFrame(rdd).first())
+//    println(sqlContext.createDataFrame(rdd).first())
+      sqlContext.createDataFrame(rdd).show()
     })
 
     ssc.start()
 
     // Create and push some RDDs into rddQueue
-//    for (i <- 1 to 30) {
+//  for (i <- 1 to 30) {
     while(true) {
       rddQueue.synchronized {
 //        rddQueue += ssc.sparkContext.makeRDD(1 to 1000, 10)
-        rddQueue += spark.sparkContext.parallelize(Array(1, 2, 3, 4))
+
+        val a = spark.sparkContext.parallelize(Array(1, 2, 3, 4))
+//        rddQueue += spark.sparkContext.parallelize(Array(1, 2, 3, 4))
+//        println(a)
+        rddQueue += a
       }
       Thread.sleep(1000)
     }
   }
-
-
-
-
 
 }
