@@ -5,6 +5,21 @@ import org.apache.spark.sql.SparkSession
 import sparkML.src.linearRegression.ex_LinearRegression.executeLR
 
 
+/*
+
+Objectives:
+
+fluid flow prediction based on speed.
+Predict fluid flow base on real-time speed reading. Speed
+are read from sbc and send over to the server, value of speed
+is given to the prediction api to return back a fluid flow value.
+
+Prediction model are trained on existing wellsite data
+
+
+
+ */
+
 object ex_WellsiteLinearRegression {
 
   def main(args: Array[String]): Unit = {

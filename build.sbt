@@ -9,6 +9,7 @@ libraryDependencies += "org.apache.spark" %% "spark-core" % "2.4.0"
 libraryDependencies += "org.apache.spark" %% "spark-mllib" % "2.4.0"
 libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.4.0"
 libraryDependencies += "org.apache.spark" %% "spark-streaming" % "2.4.0" % "provided"
+libraryDependencies += "io.projectreactor" %% "reactor-scala-extensions" % "0.4.0"
 
 
 // sparkML.src.movies dependency

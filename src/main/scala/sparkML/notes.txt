@@ -11,6 +11,7 @@ By Rajdeep Dua, Manpreet Singh Ghotra, Nick Pentreath
 
 Machine Leanring with Apache Spark Quick Start Guide
 Jillur Quddus
+https://github.com/PacktPublishing/Machine-Learning-with-Apache-Spark-QuickStart-Guide
 
 Feature Engineering for Machine Learning
 Alice Zheng
