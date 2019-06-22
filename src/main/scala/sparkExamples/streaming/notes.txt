@@ -1,0 +1,19 @@
+twitter stream example
+https://github.com/cnajeefa/Tourism-Sentiment-Analysis/tree/master/src/main/scala/com/aluxian/tweeather/streaming
+
+facebook stream example
+https://github.com/CatalystCode/streaming-facebook/blob/master/src/main/scala/com/github/catalystcode/fortis/spark/streaming/facebook/FacebookPostInputDStream.scala
+
+instagram stream example
+https://github.com/CatalystCode/streaming-instagram/blob/master/src/main/scala/com/github/catalystcode/fortis/spark/streaming/instagram/InstagramInputDStream.scala
+
+bing stream example
+https://github.com/CatalystCode/streaming-bing/tree/master/src/main/scala/com/github/catalystcode/fortis/spark/streaming/bing
+
+reddit stream example
+https://github.com/CatalystCode/streaming-reddit
+
+
+
+streaming listener example
+http://samuel-zhou.blogspot.com/2016/05/use-streaminglistener-for-streaming.html

@@ -1,6 +1,8 @@
 package sparkExamples.streaming
 
 
+import java.util
+
 import scala.collection.mutable.Queue
 import org.apache.spark.SparkConf
 import org.apache.spark.rdd.RDD
@@ -34,7 +36,7 @@ object QueueStream {
     queue_test2(ssc)
 //    data_test(ssc)
 //    stream_test(ssc)
-//    rdd_stream(ssc)
+//  queueStreaming_test1(ssc)
 
     ssc.stop()
   }
@@ -139,7 +141,7 @@ object QueueStream {
   }
 
 
-  def rdd_stream(ssc : StreamingContext) : Unit = {
+  def queueStreaming_test1(ssc : StreamingContext) : Unit = {
     val sqlContext = new SQLContext(ssc.sparkContext)
     val spark = sqlContext.sparkSession
 //    import spark.implicits._
@@ -175,5 +177,16 @@ object QueueStream {
       Thread.sleep(1000)
     }
   }
+
+  def queueStreaming_inJavaScala(ssc: StreamingContext) : Unit = {
+    import java.util.Queue
+    val sqlContext = new SQLContext(ssc.sparkContext)
+    val spark = sqlContext.sparkSession
+    //    import spark.implicits._
+
+
+
+  }
+
 
 }

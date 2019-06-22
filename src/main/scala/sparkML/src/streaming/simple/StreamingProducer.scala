@@ -40,7 +40,6 @@ object StreamingProducer {
       "iPad Cover" -> 7.49
     )
 
-
     /** Generate a number of random product events */
     def generateProductEvents(n: Int) = {
       // iterate 1 to n times, as each iteration will randomly choose the product+price and user

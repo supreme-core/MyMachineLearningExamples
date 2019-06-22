@@ -11,6 +11,22 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
 
 import scala.util.Random
 
+/*
+https://github.com/apache/bahir/blob/master/streaming-akka/src/main/scala/org/apache/spark/streaming/akka/AkkaUtils.scala
+https://github.com/becompany/akka-streams-example/tree/master/src/main/scala/ch/becompany
+https://github.com/eBay/Spark/tree/master/examples/src/main/scala/org/apache/spark/examples/streaming
+https://github.com/lloydmeta/sparkka-streams/tree/master/src/main/scala/com/beachape/sparkka
+
+https://github.com/apache/bahir
+https://github.com/apache/bahir/blob/master/streaming-zeromq/examples/src/main/scala/org/apache/spark/examples/streaming/zeromq/ZeroMQWordCount.scala
+https://github.com/abhinavg6/spark-queue-stream/blob/master/src/main/java/com/sapient/stream/process/MeetupEventStream.java
+https://github.com/jingpeicomp/product-category-predict/blob/master/src/main/java/com/jinpei/product/category/ml/CategoryModel.java
+
+
+ */
+
+
+
 /**
   * A producer application that generates random linear regression data.
   */

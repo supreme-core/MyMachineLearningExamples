@@ -15,7 +15,7 @@ object RandomQueueStream {
   def main(args: Array[String]): Unit = {
     StreamingExamples.setStreamingLogLevels()
     val sparkConf = new SparkConf().setMaster("local").setAppName("Random Queue Stream")
-    val streamNum = 2
+    val streamNum = 5
     val streamInterval = 1
 
     // stream are routinely polled on a 1 second basis.
@@ -27,7 +27,8 @@ object RandomQueueStream {
 
   def handleRDD(queue_id : String, rdd : RDD[Int]): Unit = {
       println(":" + queue_id + ":")
-      rdd.foreach(num => {
+    // queue items
+    rdd.foreach(num => {
         println(num)
       })
   }
@@ -55,7 +56,9 @@ object RandomQueueStream {
       // this is called as often as you indicate through the streaming context
       inputStream.foreachRDD((rdd, t) => {
         if(!rdd.isEmpty()) {
-          println("----- " + t + " ----")
+          if(i == 0) {
+            println("----- " + t + " ----")
+          }
           handleRDD("queue " + i, rdd)
         }
         else {
@@ -80,12 +83,13 @@ object RandomQueueStream {
         q.synchronized {
           val leadingNum = i * 10
 //          q += spark.sparkContext.parallelize(Array((leadingNum + 1), (leadingNum + 2)))
+//          q += spark.sparkContext.parallelize(Array((leadingNum + Random.nextInt(9)), (leadingNum + Random.nextInt(9))))
+          q += spark.sparkContext.parallelize(Array((leadingNum + Random.nextInt(9))))
 
-          q += spark.sparkContext.parallelize(Array((leadingNum + Random.nextInt(9)), (leadingNum + Random.nextInt(9))))
         }
       }
 
-      Thread.sleep(5000)
+      Thread.sleep(1000)
     }
   }
 

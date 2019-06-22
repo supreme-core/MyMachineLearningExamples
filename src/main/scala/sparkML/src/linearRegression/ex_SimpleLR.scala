@@ -58,22 +58,44 @@ object ex_SimpleLR {
       .setInputCols(Array("X", "label"))
       .setOutputCol("features")
 
+    var assembler2 = new VectorAssembler()
+        .setInputCols(Array("X"))
+        .setOutputCol("features")
+
     trainDf = assembler.transform(trainDf)
     testDf = assembler.transform(testDf)
 
     trainDf.show(10, false)
     testDf.show(10, false)
 
-
     def modelPredict(trainD : DataFrame, testD : DataFrame): Unit = {
       var lr = new LinearRegression()
-      var lrModel = lr.fit(trainDf)
+      var lrModel = lr.fit(trainD)
+
       var lrPrediction = lrModel.transform(testD)
       println("======= RESULTS ===========")
       lrPrediction.show(10, false)
 
       println("Coefficients: " + lrModel.coefficients + " Intercept: " + lrModel.intercept)
-      println("Summary " + lrModel.summary.toString())
+      println("Coefficient Standard Errors: " + String.valueOf(lrModel.summary.coefficientStandardErrors.mkString(",")) )
+
+      println("NumFeatures: " + lrModel.numFeatures)
+      println("T Values: " + String.valueOf(lrModel.summary.tValues.mkString(",")))
+      println("P Values: " + String.valueOf(lrModel.summary.pValues.mkString(",")))
+      println("Disperson: " + lrModel.aggregationDepth)
+      println("ElasticNetParam: " + lrModel.elasticNetParam)
+      println("Epsilon: " + lrModel.epsilon)
+      println("FeaturesCol: " + lrModel.featuresCol)
+      println("FitIntercept: " + lrModel.fitIntercept)
+      println("LabelCol: " + lrModel.labelCol)
+      println("Loss: " + lrModel.loss)
+      println("MaxIter: " + lrModel.maxIter)
+      println("Params: " + lrModel.params)
+      println("PredictionCol: " + lrModel.predictionCol)
+
+      val result = lrModel.predict(Vectors.dense(20.0, 106).asML)
+      println("Result: " + result)
+
 
 //      testD.foreach((row) => {
 ////        val input = util.Arrays.asList(Vectors.dense(20.0, 106.0))
@@ -109,9 +131,11 @@ object ex_SimpleLR {
       lrPrediction.show(10, false)
     }
 
+
     modelPredict(trainDf, testDf)
 //    pipelinePredict(trainDf, testDf)
     ss.stop()
+
   }
 
   def getTrainData(indexFactor: Integer, scalingFactor: Integer): ListBuffer[(Int, Int)] = {
