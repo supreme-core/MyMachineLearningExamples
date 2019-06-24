@@ -21,6 +21,7 @@ object ServerClient {
       val clientBPort = 8888
 
       val conf = new SparkConf().setMaster("local[*]").setAppName("Bi-directional streaming socket")
+      conf.set("spark.streaming.receiverRestartDelay", "5000") // sets the delay to restart on the client stream to 5000 ms
 //      conf.set("spark.driver.allowMultipleContexts", "true") // not recommened, may have unexpected result
 
       // There can be only 1 SparkContext per JVM instance. 1 spark context per job, and it is possible to have multiple context by submitting multiple jobs to spark cluster
@@ -36,19 +37,20 @@ object ServerClient {
 //      clientB.start()
 
 //      val clientAStream = clientB.remoteStream(clientAHost, clientAPort)
-//      val clientBStream = clientA.remoteStream(clientBHost, clientBPort)
+      val clientBStream = clientA.remoteStream(clientBHost, clientBPort)
 //      val clientBStream2 = clientA.remoteStream(clientBHost, clientBPort)
 
 //      clientAStream.print()
-//      clientBStream.print()
+      clientBStream.print()
 //      clientBStream2.print()
 //
-//      ssc.start()
-//      ssc.awaitTermination()
+//      Thread.sleep(8)
+      ssc.start()
+      ssc.awaitTermination()
 
-    while(true) {
-      Thread.sleep(1000);
-    }
+//    while(true) {
+//      Thread.sleep(1000);
+//    }
 
   }
 
