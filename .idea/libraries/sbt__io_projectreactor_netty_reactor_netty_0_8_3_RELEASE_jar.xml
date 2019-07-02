@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: io.projectreactor.netty:reactor-netty:0.8.3.RELEASE:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/io.projectreactor.netty/reactor-netty/jars/reactor-netty-0.8.3.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/io.projectreactor.netty/reactor-netty/srcs/reactor-netty-0.8.3.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

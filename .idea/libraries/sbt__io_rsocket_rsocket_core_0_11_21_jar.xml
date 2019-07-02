@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: io.rsocket:rsocket-core:0.11.21:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/io.rsocket/rsocket-core/jars/rsocket-core-0.11.21.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/io.rsocket/rsocket-core/srcs/rsocket-core-0.11.21-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

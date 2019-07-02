@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: io.rsocket:rsocket-transport-netty:0.11.21:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/io.rsocket/rsocket-transport-netty/jars/rsocket-transport-netty-0.11.21.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/io.rsocket/rsocket-transport-netty/srcs/rsocket-transport-netty-0.11.21-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

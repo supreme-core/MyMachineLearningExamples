@@ -27,4 +27,7 @@ libraryDependencies += "com.github.scopt" % "scopt_2.10" % "3.2.0"
 //libraryDependencies += "org.zeromq" % "jeromq" % "0.5.1"
 //libraryDependencies += "org.apache.bahir" %% "spark-streaming-zeromq" % "2.3.3"
 
+libraryDependencies += "io.rsocket" % "rsocket-core" % "0.11.21"
+libraryDependencies += "io.rsocket" % "rsocket-transport-netty" % "0.11.21"
+
 

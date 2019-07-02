@@ -16,7 +16,8 @@ object ServerClient {
   def main(args: Array[String]): Unit = {
 
       val clientAHost = "localhost"
-      val clientAPort = 9999
+//      val clientAPort = 9999
+      val clientAPort = 10000
       val clientBHost = "localhost"
       val clientBPort = 8888
 
@@ -31,19 +32,19 @@ object ServerClient {
 //      val ssc3 = StreamingContext.getActiveOrCreate(() => new StreamingContext(conf, Seconds(1)))
       ssc.sparkContext.setLogLevel("ERROR")
 
-      val clientA = new StreamingSocket(ssc, clientAHost, clientAPort, periodicServe)
-      clientA.start()
-//      val clientB = new StreamingSocket(ssc, clientBHost, clientBPort, customServing)
-//      clientB.start()
+//      val clientA = new StreamingSocket(ssc, clientAHost, clientAPort, periodicServe)
+//      clientA.start()
+      val clientB = new StreamingSocket(ssc, clientBHost, clientBPort, customServing)
+      clientB.start()
 
-//      val clientAStream = clientB.remoteStream(clientAHost, clientAPort)
-      val clientBStream = clientA.remoteStream(clientBHost, clientBPort)
+      val clientAStream = clientB.remoteStream(clientAHost, clientAPort)
+    //      val clientBStream = clientA.remoteStream(clientBHost, clientBPort)
 //      val clientBStream2 = clientA.remoteStream(clientBHost, clientBPort)
 
-//      clientAStream.print()
-      clientBStream.print()
+      clientAStream.print()
+//      clientBStream.print()
 //      clientBStream2.print()
-//
+
 //      Thread.sleep(8)
       ssc.start()
       ssc.awaitTermination()
@@ -95,7 +96,6 @@ object ServerClient {
       Thread.sleep(5000)
     }
   }
-
 }
 
 
@@ -110,7 +110,6 @@ class StreamingSocket(ssc : StreamingContext, localHost : String, localPort: Int
     val listener = new ServerSocket()
     listener.bind(new InetSocketAddress(localHost, localPort))
     println("Listening on " + localHost + ":" + localPort)
-
 
     var conCount = 0
     new Thread() {
