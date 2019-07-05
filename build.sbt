@@ -33,10 +33,10 @@ libraryDependencies += "io.rsocket" % "rsocket-transport-netty" % "0.11.21"
 libraryDependencies += "com.google.code.gson" % "gson" % "2.8.5"
 
 
-val circeVersion = "0.10.0"
-
-libraryDependencies ++= Seq(
-  "io.circe" %% "circe-core",
-  "io.circe" %% "circe-generic",
-  "io.circe" %% "circe-parser"
-).map(_ % circeVersion)
+//val circeVersion = "0.10.0"
+//
+//libraryDependencies ++= Seq(
+//  "io.circe" %% "circe-core",
+//  "io.circe" %% "circe-generic",
+//  "io.circe" %% "circe-parser"
+//).map(_ % circeVersion)
