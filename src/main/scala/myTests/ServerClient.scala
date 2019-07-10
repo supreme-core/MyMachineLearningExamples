@@ -38,7 +38,7 @@ object ServerClient {
       clientB.start()
 
       val clientAStream = clientB.remoteStream(clientAHost, clientAPort)
-    //      val clientBStream = clientA.remoteStream(clientBHost, clientBPort)
+//      val clientBStream = clientA.remoteStream(clientBHost, clientBPort)
 //      val clientBStream2 = clientA.remoteStream(clientBHost, clientBPort)
 
       clientAStream.print()
@@ -97,8 +97,6 @@ object ServerClient {
     }
   }
 }
-
-
 
 
 class StreamingSocket(ssc : StreamingContext, localHost : String, localPort: Integer, callback: (String, Integer, java.net.Socket) => Unit) {

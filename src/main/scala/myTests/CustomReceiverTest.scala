@@ -81,7 +81,6 @@ object CustomReceiverTest {
     //    val lines5 = ssc.receiverStream(new SocketReceiver("localhost", 10004))
     //    val lines6 = ssc.receiverStream(new SocketReceiver("localhost", 10005))
 
-
     lines.print()
     lines2.print()
 
@@ -122,7 +121,7 @@ object CustomReceiverTest {
 // https://mapr.com/blog/how-integrate-custom-data-sources-apache-spark/
 class StringReceiver extends Receiver[String](StorageLevel.MEMORY_AND_DISK_2)  {
 
-    def onStart(): Unit = {
+  def onStart(): Unit = {
       new Thread() {
         setDaemon(true)
         override def run(): Unit = {

@@ -74,6 +74,7 @@ class SingleValueLinearRegressionPrediction {
   def predict(raw_feature: Double): Double = {
     return model.predict(org.apache.spark.ml.linalg.Vectors.dense(raw_feature))
   }
+
 }
 
 
@@ -136,7 +137,6 @@ object GenericSingleValuePrediction {
 
   }
 
-
   def getTrainData(indexFactor: Integer, scalingFactor: Integer): ListBuffer[(Int, Int)] = {
     val trainData = ListBuffer[(Int, Int)]()
     for (i <- 1 to 100)
@@ -151,7 +151,6 @@ object GenericSingleValuePrediction {
     //        testData += ((i, i))
     return testData
   }
-
 
 }
 
