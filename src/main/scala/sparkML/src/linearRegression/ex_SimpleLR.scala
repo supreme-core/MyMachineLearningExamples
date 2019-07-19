@@ -25,7 +25,6 @@ import sparkML.src.recommendation.FeatureExtraction.spark
 
 object ex_SimpleLR {
 
-
   def main(args: Array[String]): Unit = {
 //    simpleLinearPrediction()
 //    simpleLinearPredictionNew()

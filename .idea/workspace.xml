@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef18b4c7-cd7d-4c20-853f-c321c998deba" name="Default Changelist" comment="queue streaming">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/MyMachineLearningExamples-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/MyMachineLearningExamples-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/MyMachineLearningExamples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/MyMachineLearningExamples.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/config-classes/$263d870bd0a78c153220$.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/config-classes/$263d870bd0a78c153220.cache" beforeDir="false" />
@@ -44,9 +42,6 @@
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-mymachinelearningexamples-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-mymachinelearningexamples-build-test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/myTests/CustomReceiverTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/myTests/CustomReceiverTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/myTests/GenericSingleValuePrediction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/myTests/GenericSingleValuePrediction.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/myTests/ServerClient.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/myTests/ServerClient.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/sparkML/src/linearRegression/ex_SimpleLR.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sparkML/src/linearRegression/ex_SimpleLR.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/mymachinelearningexamples$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/mymachinelearningexamples$sources/0.1/resolved.xml.properties" afterDir="false" />
@@ -133,42 +128,14 @@
     <favorites_list name="MyMachineLearningExamples" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/linearRegression/ex_SimpleLR.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="353" column="4" selection-start-line="353" selection-start-column="4" selection-end-line="353" selection-end-column="39" />
+            <state relative-caret-position="225">
+              <caret line="147" column="31" selection-start-line="147" selection-start-column="31" selection-end-line="147" selection-end-column="31" />
               <folding>
                 <element signature="e#38#57#0" expanded="true" />
-                <element signature="e#1101#1825#0" />
-                <element signature="e#1829#2609#0" />
-                <element signature="e#2613#2925#0" />
-                <element signature="e#2929#3140#0" />
-                <element signature="e#2929#6740#0" />
-                <element signature="e#4068#5632#0" />
-                <element signature="e#4339#4432#0" />
-                <element signature="e#5638#6648#0" />
-                <element signature="e#6827#11327#0" />
-                <element signature="e#7637#10214#0" />
-                <element signature="e#8503#8596#0" />
-                <element signature="e#14052#18571#0" />
-                <element signature="e#18575#19488#0" />
-                <element signature="e#19492#19735#0" />
-                <element signature="e#19739#20010#0" />
-                <element signature="e#20014#20813#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-catalyst_2.12/srcs/spark-catalyst_2.12-2.4.0-sources.jar!/org/apache/spark/sql/Row.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-              <folding>
-                <element signature="e#832#872#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -288,9 +255,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2560" />
-    <option name="y" value="-2" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="224" />
+    <option name="y" value="534" />
     <option name="width" value="960" />
     <option name="height" value="1082" />
   </component>
@@ -300,6 +267,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -340,18 +309,25 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="bahirExamples" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MyMachineLearningExamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyMachineLearningExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="bahirExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="streaming" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560742692598" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../grpc-java-course-test/grpc-java-course" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -578,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562286312481</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="- Prediction example">
+      <created>1562800525339</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1562800525339</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -591,9 +574,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2560" y="-2" width="960" height="1082" extended-state="4" />
+    <frame x="224" y="534" width="960" height="810" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24179432" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29321662" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -675,7 +659,8 @@
     <MESSAGE value="- Java/Scala Interops example&#10;- CustomReceiver examples, including example to connect to Python socket server&#10;- Completed version of ServerClient.scala" />
     <MESSAGE value="custom receiver test" />
     <MESSAGE value="linear regression simplified" />
-    <option name="LAST_COMMIT_MESSAGE" value="linear regression simplified" />
+    <MESSAGE value="- Prediction example" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Prediction example" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -692,13 +677,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sparkExamples/streaming/StreamingExamples.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/movies/MovieData.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -950,17 +928,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/myTests/regression.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="10" lean-forward="true" selection-end-line="999" selection-end-column="10" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
         </state>
       </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="10" lean-forward="true" selection-end-line="999" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1075,28 +1053,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkML/src/linearRegression/ex_SimpleLR.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="353" column="4" selection-start-line="353" selection-start-column="4" selection-end-line="353" selection-end-column="39" />
+        <state relative-caret-position="225">
+          <caret line="147" column="31" selection-start-line="147" selection-start-column="31" selection-end-line="147" selection-end-column="31" />
           <folding>
             <element signature="e#38#57#0" expanded="true" />
-            <element signature="e#1101#1825#0" />
-            <element signature="e#1829#2609#0" />
-            <element signature="e#2613#2925#0" />
-            <element signature="e#2929#3140#0" />
-            <element signature="e#2929#6740#0" />
-            <element signature="e#4068#5632#0" />
-            <element signature="e#4339#4432#0" />
-            <element signature="e#5638#6648#0" />
-            <element signature="e#6827#11327#0" />
-            <element signature="e#7637#10214#0" />
-            <element signature="e#8503#8596#0" />
-            <element signature="e#14052#18571#0" />
-            <element signature="e#18575#19488#0" />
-            <element signature="e#19492#19735#0" />
-            <element signature="e#19739#20010#0" />
-            <element signature="e#20014#20813#0" />
           </folding>
         </state>
       </provider>
